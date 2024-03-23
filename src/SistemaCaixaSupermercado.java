@@ -3,8 +3,8 @@ import java.util.HashMap;
 public class SistemaCaixaSupermercado {
 
    private HashMap<String, Cliente> tabelaHash = new HashMap<>();
-   
-   Cliente clienteAux = new Cliente("nome", "cpf", "email");
+
+   Cliente clienteAux = new Cliente("nome", "cpf", "email","celular");
 
    public SistemaCaixaSupermercado() {
    }
